@@ -1,0 +1,35 @@
+/* background colors */
+.bg-antiquewhite{
+    background-color: antiquewhite;
+}
+.bg-brown{
+    background-color: brown;
+
+}
+.bg-aqua
+{
+    background-color: aqua;
+}
+.bg-yellow{
+    background-color: rgba(255, 255, 0, 0.601);
+}
+.bg-blue{
+    background-color: rgb(164, 164, 229);
+}
+/* spacing(margin , padding) */
+.margin-btm{
+    margin-bottom: 20px;
+}
+.margin-top{
+    margin-top: 40px;
+
+}
+/* btn styling */
+.btn{
+    width: 100px;
+    display: block;
+}
+img{
+    width: 100%;
+
+}

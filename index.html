@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="bg-antiquewhite">
+    <form action="">
+        <fieldset class="parent bg-brown">
+            <legend  class="bg-blue margin-btm">Personal Data</legend>
+            <fieldset class="bg-yellow">
+                <legend class="bg-aqua">Your Name</legend>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><label for="firstName">First Name</label></td>
+                            <td> :</td>
+                            <td><input id="firstName" type="text" placeholder="ex Ahmed" name="firstName"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="secondName">Second Name</label></td>
+                            <td> :</td>
+                            <td><input id="secondName" type="text" placeholder="ex Maher" name="secondName"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+            <table class="margin-top margin-btm">
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="phone">Your Phone</label>
+                        </td>
+                        <td>:</td>
+                        <td><input id="phone" type="tel" name="phoneNumber"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email</label>
+                        </td>
+                        <td>:</td>
+                        <td><input id="email" type="text" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password">Password</label>
+                        </td>
+                        <td>:</td>
+                        <td><input id="password" type="password" name="password"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="repassword">Re-password</label>
+                        </td>
+                        <td>:</td>
+                        <td><input id="repassword" type="password" name="repassword"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="margin-btm margin-top">
+                <tbody>
+                    <tr> 
+                        <td><label for="male">Male</label></td>
+                        <td>:</td>
+                        <td><input type="radio" name="gender" id="male"></td>
+                    </tr>
+                    <tr> 
+                        <td><label for="female">Female</label></td>
+                        <td>:</td>
+                        <td><input type="radio" name="gender" id="female"></td> 
+                    </tr>
+                </tbody>
+            </table>
+            <table class="margin-btm margin-top">
+                <tbody>
+                    <tr> 
+                        <td><label for="student">Student</label></td>
+                        <td>:</td>
+                        <td><input type="checkbox" name="education" id="student"></td>
+                    </tr>
+                    <tr> 
+                        <td><label for="graduate">Graduate</label></td>
+                        <td>:</td>
+                        <td><input type="checkbox" name="education" id="graduate"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <label for="Uni">University :</label>
+            <select name="University" id="Uni">
+                <option selected hidden>Select Your University</option>
+                <optgroup label="Uni in Cairo">
+                    <option value="AUC">AUC</option>
+                <option value="GUC">GUC</option>
+                <option value="Cairo">Cairo</option>
+                </optgroup>
+                <optgroup label="Uni in Alex">
+                    <option value="Alex">Alex</option>
+                    <option value="Pharos">Pharos</option>
+                </optgroup>   
+            </select>
+            <button class="margin-top btn" type="submit"><img src="Copy of two.jpg" alt=""></button>
+        </fieldset>
+    </form>
+</body>
+</html>
